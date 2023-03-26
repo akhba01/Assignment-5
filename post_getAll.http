@@ -1,0 +1,26 @@
+## Create Book
+POST http://localhost:4000/books
+
+{
+"title" : "New Book",
+"author" : "Me",
+"desc" : "A New book my men"
+}
+
+## GET All Book
+GET http://localhost:4000/books
+
+## GET Book By ID
+GET http://localhost:4000/books/1
+
+## UPDATE Book
+PUT http://localhost:4000/books/1
+
+{
+"title" : "New Book",
+"author" : "Me",
+"desc" : "A New book my men"
+}
+
+## Delete Book
+DELETE http://localhost:4000/books/1
